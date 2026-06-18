@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1#first-tag {
+    color: #2eb12e;
+}
+.main {
+    height: 105px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between;
+}
+ul.nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+ul.nav a {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+.container {
+    height: 600px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content h1 {
+    font-size: 40px;
+    color: orange;
+    line-height: 64px;
+}
+.content p {
+    font-size: 18px;
+}
+button.btn {
+    font-size: 18px;
+    padding: 7px;
+    margin-top: 10px;
+    color: orange;
+}
+
+
